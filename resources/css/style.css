@@ -1,1 +1,32 @@
-get started
+.header {
+  height: 80px;
+  align-items: center;
+  display: flex;
+  border-bottom: 1px solid black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+}
+span {
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.header, img {
+  align-items: flex-start;
+  margin-right: 12px;
+}
+
+.header, span {
+  color: MediumAquamarine;
+}
