@@ -17,9 +17,9 @@ span {
 }
 
 .logo {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  width: 100%;
+  flex-grow: 1;
 }
 
 .header, img {
@@ -29,4 +29,19 @@ span {
 
 .header, span {
   color: MediumAquamarine;
+}
+
+.nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: black;
+}
+
+.header, nav {
+  display: flex;
+  align-items: center;
+  padding-right: 40px;
 }
