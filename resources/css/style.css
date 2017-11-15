@@ -92,3 +92,26 @@ p {
 span.bite {
   padding: 0px;
 }
+
+.lead-story .image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+
+.image-content span {
+  color: white;
+  font-weight: bold;
+  font-family: georgia;
+  font-size: 30px;
+}
+
+.lead-story span {
+  font-size: 40px;
+}
+
+.fall-cancelled.image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+}
